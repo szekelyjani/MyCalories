@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC0ADEAB28B0C4B5005A545D /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0ADEAA28B0C4B5005A545D /* AddFoodView.swift */; };
+		AC0ADEAD28B14DE5005A545D /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0ADEAC28B14DE5005A545D /* ChallengeView.swift */; };
+		AC0ADEAF28B1DE6A005A545D /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0ADEAE28B1DE6A005A545D /* TabViewController.swift */; };
+		AC3A55F528BA55030061CE89 /* AllFoodsPerMeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A55F428BA55030061CE89 /* AllFoodsPerMeal.swift */; };
+		AC3A561A28C305380061CE89 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A561828C305380061CE89 /* ItemCell.swift */; };
+		AC3A561B28C305380061CE89 /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC3A561928C305380061CE89 /* ItemCell.xib */; };
+		AC44D83728ADE58700F3D829 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC44D83628ADE58700F3D829 /* AppDelegate.swift */; };
+		AC44D83928ADE58700F3D829 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC44D83828ADE58700F3D829 /* SceneDelegate.swift */; };
+		AC44D83B28ADE58700F3D829 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC44D83A28ADE58700F3D829 /* ViewController.swift */; };
+		AC44D83E28ADE58700F3D829 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC44D83C28ADE58700F3D829 /* Main.storyboard */; };
+		AC44D84028ADE58800F3D829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC44D83F28ADE58800F3D829 /* Assets.xcassets */; };
+		AC44D84328ADE58800F3D829 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC44D84128ADE58800F3D829 /* LaunchScreen.storyboard */; };
+		AC44D84B28AF386700F3D829 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC44D84A28AF386700F3D829 /* Items.swift */; };
+		AC44D84D28AF397D00F3D829 /* ItemFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC44D84C28AF397D00F3D829 /* ItemFetcher.swift */; };
+		AC44D84F28AFD1D500F3D829 /* DiaryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC44D84E28AFD1D500F3D829 /* DiaryTableViewController.swift */; };
+		AC5D17EC28B5CFA500DB61C5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D17EB28B5CFA500DB61C5 /* Data.swift */; };
+		ACB4A92B28AFD9DE00FA3167 /* Meals.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACB4A92928AFD9DE00FA3167 /* Meals.xcdatamodeld */; };
+		ACB4A92F28B0B07F00FA3167 /* SearchFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB4A92E28B0B07F00FA3167 /* SearchFoodView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC0ADEAA28B0C4B5005A545D /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
+		AC0ADEAC28B14DE5005A545D /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
+		AC0ADEAE28B1DE6A005A545D /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		AC3A55F428BA55030061CE89 /* AllFoodsPerMeal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllFoodsPerMeal.swift; sourceTree = "<group>"; };
+		AC3A561828C305380061CE89 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		AC3A561928C305380061CE89 /* ItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
+		AC44D83328ADE58700F3D829 /* MyCalories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCalories.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC44D83628ADE58700F3D829 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC44D83828ADE58700F3D829 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC44D83A28ADE58700F3D829 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC44D83D28ADE58700F3D829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC44D83F28ADE58800F3D829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC44D84228ADE58800F3D829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC44D84428ADE58800F3D829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC44D84A28AF386700F3D829 /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		AC44D84C28AF397D00F3D829 /* ItemFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemFetcher.swift; sourceTree = "<group>"; };
+		AC44D84E28AFD1D500F3D829 /* DiaryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryTableViewController.swift; sourceTree = "<group>"; };
+		AC5D17EB28B5CFA500DB61C5 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		ACB4A92A28AFD9DE00FA3167 /* Meals.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Meals.xcdatamodel; sourceTree = "<group>"; };
+		ACB4A92E28B0B07F00FA3167 /* SearchFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFoodView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC44D83028ADE58700F3D829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC0ADEB028B201DD005A545D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AC3A55F428BA55030061CE89 /* AllFoodsPerMeal.swift */,
+				AC5D17EB28B5CFA500DB61C5 /* Data.swift */,
+				AC44D84A28AF386700F3D829 /* Items.swift */,
+				AC44D84C28AF397D00F3D829 /* ItemFetcher.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AC0ADEB128B201F2005A545D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC0ADEAA28B0C4B5005A545D /* AddFoodView.swift */,
+				AC0ADEAC28B14DE5005A545D /* ChallengeView.swift */,
+				AC44D84E28AFD1D500F3D829 /* DiaryTableViewController.swift */,
+				ACB4A92E28B0B07F00FA3167 /* SearchFoodView.swift */,
+				AC0ADEAE28B1DE6A005A545D /* TabViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AC44D82A28ADE58700F3D829 = {
+			isa = PBXGroup;
+			children = (
+				AC44D83528ADE58700F3D829 /* MyCalories */,
+				AC44D83428ADE58700F3D829 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC44D83428ADE58700F3D829 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC44D83328ADE58700F3D829 /* MyCalories.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC44D83528ADE58700F3D829 /* MyCalories */ = {
+			isa = PBXGroup;
+			children = (
+				AC0ADEB128B201F2005A545D /* Views */,
+				AC0ADEB028B201DD005A545D /* Data */,
+				AC44D83628ADE58700F3D829 /* AppDelegate.swift */,
+				AC44D83828ADE58700F3D829 /* SceneDelegate.swift */,
+				AC44D83A28ADE58700F3D829 /* ViewController.swift */,
+				AC44D83C28ADE58700F3D829 /* Main.storyboard */,
+				AC3A561828C305380061CE89 /* ItemCell.swift */,
+				AC3A561928C305380061CE89 /* ItemCell.xib */,
+				ACB4A92928AFD9DE00FA3167 /* Meals.xcdatamodeld */,
+				AC44D83F28ADE58800F3D829 /* Assets.xcassets */,
+				AC44D84128ADE58800F3D829 /* LaunchScreen.storyboard */,
+				AC44D84428ADE58800F3D829 /* Info.plist */,
+			);
+			path = MyCalories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC44D83228ADE58700F3D829 /* MyCalories */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC44D84728ADE58800F3D829 /* Build configuration list for PBXNativeTarget "MyCalories" */;
+			buildPhases = (
+				AC44D82F28ADE58700F3D829 /* Sources */,
+				AC44D83028ADE58700F3D829 /* Frameworks */,
+				AC44D83128ADE58700F3D829 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCalories;
+			productName = MyCalories;
+			productReference = AC44D83328ADE58700F3D829 /* MyCalories.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC44D82B28ADE58700F3D829 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					AC44D83228ADE58700F3D829 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = AC44D82E28ADE58700F3D829 /* Build configuration list for PBXProject "MyCalories" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC44D82A28ADE58700F3D829;
+			productRefGroup = AC44D83428ADE58700F3D829 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC44D83228ADE58700F3D829 /* MyCalories */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC44D83128ADE58700F3D829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3A561B28C305380061CE89 /* ItemCell.xib in Resources */,
+				AC44D84328ADE58800F3D829 /* LaunchScreen.storyboard in Resources */,
+				AC44D84028ADE58800F3D829 /* Assets.xcassets in Resources */,
+				AC44D83E28ADE58700F3D829 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC44D82F28ADE58700F3D829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0ADEAF28B1DE6A005A545D /* TabViewController.swift in Sources */,
+				AC0ADEAB28B0C4B5005A545D /* AddFoodView.swift in Sources */,
+				AC3A55F528BA55030061CE89 /* AllFoodsPerMeal.swift in Sources */,
+				AC44D84B28AF386700F3D829 /* Items.swift in Sources */,
+				AC3A561A28C305380061CE89 /* ItemCell.swift in Sources */,
+				AC0ADEAD28B14DE5005A545D /* ChallengeView.swift in Sources */,
+				AC44D84F28AFD1D500F3D829 /* DiaryTableViewController.swift in Sources */,
+				AC44D84D28AF397D00F3D829 /* ItemFetcher.swift in Sources */,
+				AC44D83B28ADE58700F3D829 /* ViewController.swift in Sources */,
+				AC5D17EC28B5CFA500DB61C5 /* Data.swift in Sources */,
+				AC44D83728ADE58700F3D829 /* AppDelegate.swift in Sources */,
+				AC44D83928ADE58700F3D829 /* SceneDelegate.swift in Sources */,
+				ACB4A92B28AFD9DE00FA3167 /* Meals.xcdatamodeld in Sources */,
+				ACB4A92F28B0B07F00FA3167 /* SearchFoodView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC44D83C28ADE58700F3D829 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC44D83D28ADE58700F3D829 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC44D84128ADE58800F3D829 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC44D84228ADE58800F3D829 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC44D84528ADE58800F3D829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC44D84628ADE58800F3D829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC44D84828ADE58800F3D829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A5WFHPQKLR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyCalories/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = janos.szekely.MyCalories;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC44D84928ADE58800F3D829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A5WFHPQKLR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyCalories/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = janos.szekely.MyCalories;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC44D82E28ADE58700F3D829 /* Build configuration list for PBXProject "MyCalories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC44D84528ADE58800F3D829 /* Debug */,
+				AC44D84628ADE58800F3D829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC44D84728ADE58800F3D829 /* Build configuration list for PBXNativeTarget "MyCalories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC44D84828ADE58800F3D829 /* Debug */,
+				AC44D84928ADE58800F3D829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ACB4A92928AFD9DE00FA3167 /* Meals.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ACB4A92A28AFD9DE00FA3167 /* Meals.xcdatamodel */,
+			);
+			currentVersion = ACB4A92A28AFD9DE00FA3167 /* Meals.xcdatamodel */;
+			path = Meals.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC44D82B28ADE58700F3D829 /* Project object */;
+}
