@@ -89,6 +89,7 @@ class Data {
         let meals = loadMeals()
         let food = Food(context: delegate.persistentContainer.viewContext)
         food.name = item.name.capitalized
+        food.amount = item.serving_size_g
         food.calories = item.calories
         food.saturatedFat = item.fat_saturated_g
         food.cholesterol = item.cholesterol_mg

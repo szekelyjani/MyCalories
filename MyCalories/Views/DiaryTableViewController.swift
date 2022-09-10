@@ -87,6 +87,14 @@ class DiaryTableViewController: UITableViewController {
         tableView.reloadData()
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let vc = storyboard?.instantiateViewController(withIdentifier: "AddFood") as? AddFoodView {
+            let food = allFoodsPerMeal[indexPath.section].foodsPerMeal[indexPath.row]
+            vc.food = food
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+    }
+    
     func configureTableView() {
         let nib = UINib(nibName: "ItemCell", bundle: nil)
         tableView.register(nib, forCellReuseIdentifier: "ItemCell")

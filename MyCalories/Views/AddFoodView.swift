@@ -36,6 +36,7 @@ class AddFoodView: UIViewController {
     @IBOutlet weak var amountLabel: UILabel!
     @IBOutlet weak var addButton: UIButton!
     var foodName: String?
+    var food: Food?
     var item: Item?
     private var mealFor = "Breakfast"
     private let meals = ["Breakfast", "Lunch", "Dinner"]
@@ -45,13 +46,22 @@ class AddFoodView: UIViewController {
         
         mealPicker.dataSource = self
         mealPicker.delegate = self
+        if let food = food {
+            let item = convertFoodToItem(food: food)
+            setAmountLabels(item: item)
+            amountSlider.isHidden = true
+            addButton.isHidden = true
+            amountLabel.text = String(format: "%.2f", item.serving_size_g) + " gram"
+        } else {
+            amountLabel.text = String(format: "%.2f", amountSlider.value) + " gram"
+        }
+        
         title = foodName
-        amountLabel.text = String(format: "%.2f", amountSlider.value) + " gram"
         
         setLabels()
         
         if let item = item {
-            setLabels(item: item)
+            setAmountLabels(item: item)
         }
     }
     
@@ -66,7 +76,7 @@ class AddFoodView: UIViewController {
         amountLabel.text = String(format: "%.2f", amountSlider.value) + " gram"
         amount = amountSlider.value
         if let item = item {
-            setLabels(item: calculateNutrion(item: item))
+            setAmountLabels(item: calculateNutrion(item: item))
         }
     }
     
@@ -82,7 +92,7 @@ class AddFoodView: UIViewController {
         totalFatLabel.text = "Total fat:"
     }
     
-    private func setLabels(item: Item) {
+    private func setAmountLabels(item: Item) {
         calorieAmountLabel.text = "\(item.calories) cal"
         saturatedFatAmountLabel.text = "\(item.fat_saturated_g) g"
         cholesterolAmountLabel.text = "\(item.fat_saturated_g) g"
@@ -97,6 +107,7 @@ class AddFoodView: UIViewController {
     
     private func calculateNutrion(item: Item) -> Item {
         var item = item
+        item.serving_size_g = amount
         item.calories = item.calories * amount / 100
         item.fat_saturated_g = item.fat_saturated_g * amount / 100
         item.fat_total_g = item.fat_total_g * amount / 100
@@ -107,6 +118,11 @@ class AddFoodView: UIViewController {
         item.sugar_g = item.sugar_g * amount / 100
         item.protein_g = item.protein_g * amount / 100
         item.fiber_g = item.fiber_g * amount / 100
+        return item
+    }
+    
+    private func convertFoodToItem(food: Food) -> Item {
+        let item = Item(sugar_g: food.sugar, fiber_g: food.fiber, serving_size_g: food.amount, sodium_mg: food.sodium, name: food.name!, potassium_mg: food.potassium, fat_saturated_g: food.saturatedFat, fat_total_g: food.totalFat, calories: food.calories, cholesterol_mg: food.cholesterol, protein_g: food.protein, carbohydrates_total_g: food.totalCarbohydrates)
         return item
     }
     
