@@ -47,6 +47,7 @@ class AddFoodView: UIViewController {
         mealPicker.dataSource = self
         mealPicker.delegate = self
         if let food = food {
+            print(food)
             let item = convertFoodToItem(food: food)
             setAmountLabels(item: item)
             amountSlider.isHidden = true
@@ -85,6 +86,7 @@ class AddFoodView: UIViewController {
         saturatedFatLabel.text = "Saturated fat:"
         cholesterolLabel.text = "Cholesterol:"
         potassiumLabel.text = "Potassium:"
+        fiberLabel.text = "Fiber"
         sodiumLabel.text = "Sodium:"
         carbohydratesLabel.text = "Carbohydrates:"
         sugarLabel.text = "Sugar:"

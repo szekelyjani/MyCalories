@@ -94,6 +94,7 @@ class Data {
         food.saturatedFat = item.fat_saturated_g
         food.cholesterol = item.cholesterol_mg
         food.potassium = item.potassium_mg
+        food.fiber = item.fiber_g
         food.sodium = item.sodium_mg
         food.totalCarbohydrates = item.carbohydrates_total_g
         food.sugar = item.sugar_g
