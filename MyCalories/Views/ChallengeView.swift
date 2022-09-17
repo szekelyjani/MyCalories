@@ -24,11 +24,27 @@ class ChallengeView: UIViewController, UIGestureRecognizerDelegate {
         let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(handleTap(_:)))
         rectangle.addGestureRecognizer(gestureRecognizer)
         
+        configureBarItems()
+        
+        ChallangeNotification().requestAuthorization {
+            DispatchQueue.main.async {
+                self.navigationItem.rightBarButtonItem?.isEnabled = true
+            }
+        }
+        
+    }
+    
+    private func configureBarItems() {
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Add Notification", style: .plain, target: self, action: #selector(addNotification))
     }
 
     @objc func handleTap(_ gesture: UITapGestureRecognizer) {
         counter += 1
         numberOfPushUpsLabel.text = "\(counter)"
+    }
+    
+    @objc func addNotification(_ sender: UIBarButtonItem) {
+        ChallangeNotification().setNotification()
     }
     
     @IBAction func resetButtonTouchUpInside(_ sender: Any) {

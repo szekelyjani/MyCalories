@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="a8E-Mx-oCj">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="a8E-Mx-oCj">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -33,7 +34,7 @@
             </objects>
             <point key="canvasLocation" x="1026.0869565217392" y="795.53571428571422"/>
         </scene>
-        <!--Challenge-->
+        <!--Challenge View-->
         <scene sceneID="4ir-cZ-7iI">
             <objects>
                 <viewController id="E61-4y-idP" customClass="ChallengeView" customModule="MyCalories" customModuleProvider="target" sceneMemberID="viewController">
@@ -42,19 +43,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Push up challenge" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tei-DQ-9so">
-                                <rect key="frame" x="85" y="94" width="244" height="37"/>
+                                <rect key="frame" x="74" y="142" width="266.5" height="41"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap the circle with your nose" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ydf-QD-zTw">
-                                <rect key="frame" x="55.5" y="171" width="303" height="30"/>
+                                <rect key="frame" x="37.5" y="223" width="339.5" height="33.5"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bFG-vW-EDi">
-                                <rect key="frame" x="176.5" y="732" width="61" height="31"/>
+                                <rect key="frame" x="173.5" y="728.5" width="67.5" height="34.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Reset"/>
                                 <connections>
@@ -73,7 +74,6 @@
                             <constraint firstItem="mWj-kp-spd" firstAttribute="bottom" secondItem="bFG-vW-EDi" secondAttribute="bottom" constant="50" id="uM2-XP-9kj"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Challenge" image="triangle.circle" catalog="system" id="CsR-hd-Fwv"/>
                     <navigationItem key="navigationItem" id="rrc-Wd-1dl"/>
                     <connections>
                         <outlet property="numberOfPushUpsLabel" destination="Ydf-QD-zTw" id="A17-N4-xbP"/>
@@ -82,7 +82,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IRC-Xc-tvo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1319" y="130"/>
+            <point key="canvasLocation" x="2228.985507246377" y="129.91071428571428"/>
         </scene>
         <!--Search Food View-->
         <scene sceneID="3Z9-ev-bvN">
@@ -93,7 +93,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NtK-fJ-Q53">
-                                <rect key="frame" x="168.5" y="176.5" width="77.5" height="34.5"/>
+                                <rect key="frame" x="164.5" y="180.5" width="85.5" height="38"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Search">
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
@@ -103,19 +103,19 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ja7-GN-Cd9">
-                                <rect key="frame" x="20" y="118" width="374" height="28.5"/>
+                                <rect key="frame" x="20" y="122" width="374" height="28.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="kSD-NF-6uX">
-                                <rect key="frame" x="10" y="251" width="394" height="562"/>
+                                <rect key="frame" x="10" y="258.5" width="394" height="554.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="seachResultCell" id="F5Z-YA-5CQ">
-                                        <rect key="frame" x="0.0" y="44.5" width="394" height="43.5"/>
+                                        <rect key="frame" x="0.0" y="50" width="394" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="F5Z-YA-5CQ" id="Sio-V6-sjc">
-                                            <rect key="frame" x="0.0" y="0.0" width="365.5" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="363.5" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -156,10 +156,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F0c-xb-nSO">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="4" width="414" height="892"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8lN-ac-7xc" userLabel="ContentView">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="892"/>
                                         <subviews>
                                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EXN-7U-mL5">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="216"/>
@@ -376,7 +376,7 @@
                                                 </connections>
                                             </slider>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zz6-3I-Cqe">
-                                                <rect key="frame" x="182" y="576.5" width="50" height="31"/>
+                                                <rect key="frame" x="179.5" y="576.5" width="55" height="34.5"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Add"/>
                                                 <connections>
@@ -469,19 +469,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daily total " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTS-cM-qqt">
-                                <rect key="frame" x="138" y="429.5" width="138.5" height="37"/>
+                                <rect key="frame" x="131.5" y="427.5" width="151" height="41"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SVM-sD-Lyg">
-                                <rect key="frame" x="183.5" y="496.5" width="47.5" height="30"/>
+                                <rect key="frame" x="180.5" y="498.5" width="53" height="33.5"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calories-calculator" translatesAutoresizingMaskIntoConstraints="NO" id="1F2-No-FwD">
-                                <rect key="frame" x="107" y="84" width="200" height="300"/>
+                                <rect key="frame" x="107" y="88" width="200" height="300"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="pRy-Ku-cO7"/>
                                     <constraint firstAttribute="height" constant="300" id="z5h-WO-SkM"/>
@@ -521,7 +521,7 @@
                     <connections>
                         <segue destination="dXX-QE-bNI" kind="relationship" relationship="viewControllers" id="vF1-Rx-t8D"/>
                         <segue destination="DSY-hX-6cC" kind="relationship" relationship="viewControllers" id="HzN-qW-Jlg"/>
-                        <segue destination="E61-4y-idP" kind="relationship" relationship="viewControllers" id="L28-7c-ENt"/>
+                        <segue destination="7Vx-SY-II1" kind="relationship" relationship="viewControllers" id="L28-7c-ENt"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="svQ-d1-xAU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -535,7 +535,7 @@
                     <tabBarItem key="tabBarItem" title="Diary" image="calendar.circle" catalog="system" id="Lu6-7I-Idu"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="rwW-N0-KO2">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -547,12 +547,31 @@
             </objects>
             <point key="canvasLocation" x="115.94202898550725" y="795.53571428571422"/>
         </scene>
+        <!--Challenge-->
+        <scene sceneID="Asu-pP-yI4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7Vx-SY-II1" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Challenge" image="triangle.circle" catalog="system" id="CsR-hd-Fwv"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="c99-cb-gze">
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="E61-4y-idP" kind="relationship" relationship="rootViewController" id="gpI-3D-xnr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AgX-pI-rOP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1318.840579710145" y="129.91071428571428"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="calendar.circle" catalog="system" width="128" height="121"/>
+        <image name="calendar.circle" catalog="system" width="128" height="123"/>
         <image name="calories-calculator" width="512" height="512"/>
-        <image name="info.circle" catalog="system" width="128" height="121"/>
-        <image name="triangle.circle" catalog="system" width="128" height="121"/>
+        <image name="info.circle" catalog="system" width="128" height="123"/>
+        <image name="triangle.circle" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

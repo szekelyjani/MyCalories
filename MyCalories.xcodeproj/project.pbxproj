@@ -10,6 +10,7 @@
 		AC0ADEAB28B0C4B5005A545D /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0ADEAA28B0C4B5005A545D /* AddFoodView.swift */; };
 		AC0ADEAD28B14DE5005A545D /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0ADEAC28B14DE5005A545D /* ChallengeView.swift */; };
 		AC0ADEAF28B1DE6A005A545D /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0ADEAE28B1DE6A005A545D /* TabViewController.swift */; };
+		AC0C00E628D5735500C41246 /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0C00E528D5735500C41246 /* NotificationHandler.swift */; };
 		AC3A55F528BA55030061CE89 /* AllFoodsPerMeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A55F428BA55030061CE89 /* AllFoodsPerMeal.swift */; };
 		AC3A561A28C305380061CE89 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A561828C305380061CE89 /* ItemCell.swift */; };
 		AC3A561B28C305380061CE89 /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC3A561928C305380061CE89 /* ItemCell.xib */; };
@@ -31,6 +32,7 @@
 		AC0ADEAA28B0C4B5005A545D /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
 		AC0ADEAC28B14DE5005A545D /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
 		AC0ADEAE28B1DE6A005A545D /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		AC0C00E528D5735500C41246 /* NotificationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHandler.swift; sourceTree = "<group>"; };
 		AC3A55F428BA55030061CE89 /* AllFoodsPerMeal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllFoodsPerMeal.swift; sourceTree = "<group>"; };
 		AC3A561828C305380061CE89 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		AC3A561928C305380061CE89 /* ItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				AC44D83628ADE58700F3D829 /* AppDelegate.swift */,
 				AC44D83828ADE58700F3D829 /* SceneDelegate.swift */,
 				AC44D83A28ADE58700F3D829 /* ViewController.swift */,
+				AC0C00E528D5735500C41246 /* NotificationHandler.swift */,
 				AC44D83C28ADE58700F3D829 /* Main.storyboard */,
 				AC3A561828C305380061CE89 /* ItemCell.swift */,
 				AC3A561928C305380061CE89 /* ItemCell.xib */,
@@ -198,6 +201,7 @@
 				AC3A561A28C305380061CE89 /* ItemCell.swift in Sources */,
 				AC0ADEAD28B14DE5005A545D /* ChallengeView.swift in Sources */,
 				AC44D84F28AFD1D500F3D829 /* DiaryTableViewController.swift in Sources */,
+				AC0C00E628D5735500C41246 /* NotificationHandler.swift in Sources */,
 				AC44D84D28AF397D00F3D829 /* ItemFetcher.swift in Sources */,
 				AC44D83B28ADE58700F3D829 /* ViewController.swift in Sources */,
 				AC5D17EC28B5CFA500DB61C5 /* Data.swift in Sources */,
